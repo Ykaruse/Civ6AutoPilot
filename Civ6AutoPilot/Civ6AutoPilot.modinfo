@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9f591a8b-ed73-428d-a779-e7c2922f055a" version="1">
+	<Properties>
+		<Name>LOC_AUTOPILOT_MOD_NAME</Name>
+		<Teaser>LOC_AUTOPILOT_MOD_TEASER</Teaser>
+		<Description>LOC_AUTOPILOT_MOD_DESCRIPTION</Description>
+		<Authors>DeepSeek Harness</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+		<EnabledByDefault>1</EnabledByDefault>
+		<SupportsSinglePlayer>1</SupportsSinglePlayer>
+		<SupportsMultiplayer>0</SupportsMultiplayer>
+		<SupportsHotSeat>0</SupportsHotSeat>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	</Properties>
+
+	<FrontEndActions>
+		<UpdateText id="AutoPilot_ConfigText">
+			<File>Text/AutoPilot_ConfigText.xml</File>
+			<File>Text/AutoPilot_Text.xml</File>
+		</UpdateText>
+	</FrontEndActions>
+
+	<InGameActions>
+		<UpdateText id="AutoPilot_Text">
+			<File>Text/AutoPilot_ConfigText.xml</File>
+			<File>Text/AutoPilot_Text.xml</File>
+		</UpdateText>
+		<AddUserInterfaces id="AutoPilot_UI">
+			<Properties>
+				<Context>InGame</Context>
+			</Properties>
+			<File>UI/AutoPilot.xml</File>
+		</AddUserInterfaces>
+		<ImportFiles id="AutoPilot_Import">
+			<File>UI/AutoPilot.lua</File>
+			<File>UI/Replacements/TechCivicCompletedPopup_AutoPilot.lua</File>
+		</ImportFiles>
+		<ReplaceUIScript id="AutoPilot_TechCivicPopup">
+			<Properties>
+				<LuaContext>TechCivicCompletedPopup</LuaContext>
+				<LuaReplace>UI/Replacements/TechCivicCompletedPopup_AutoPilot.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+		<AddGameplayScripts id="AutoPilot_Gameplay">
+			<File>Scripts/AutoPilotGameplay.lua</File>
+		</AddGameplayScripts>
+	</InGameActions>
+
+	<Files>
+		<File>Text/AutoPilot_ConfigText.xml</File>
+		<File>Text/AutoPilot_Text.xml</File>
+		<File>UI/AutoPilot.xml</File>
+		<File>UI/AutoPilot.lua</File>
+		<File>UI/Replacements/TechCivicCompletedPopup_AutoPilot.lua</File>
+		<File>Scripts/AutoPilotGameplay.lua</File>
+	</Files>
+</Mod>

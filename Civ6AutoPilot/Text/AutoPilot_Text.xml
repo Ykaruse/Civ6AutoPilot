@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_OPEN" Text="AUTO"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_OPEN_TT" Text="Open Auto Pilot settings"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_LAUNCH" Text="AUTO"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_TITLE" Text="AUTO PILOT"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_SUBTITLE" Text="Idle cities build themselves. Future tech/civics loop."/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_TOGGLE_PRODUCTION" Text="Auto production: buildings &gt; wonders &gt; Builders"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_TOGGLE_FUTURE" Text="Loop Future Tech / Future Civic"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_TOGGLE_PLACEMENT" Text="Auto-place districts &amp; wonders"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_TOGGLE_PLACEMENT_TT" Text="When OFF, no-placement buildings such as Markets are auto-built. If none exists but a district/wonder with a legal placement plot (except Neighborhood) is available, the city waits for you. A Builder is only a fallback when neither exists; if the city already has a Builder, it runs Campus Research Grants instead."/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_STATUS" Text="This session: {1_count} builds, {2_count} future techs, {3_count} future civics, {4_count} repairs."/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_RUN_NOW" Text="RUN NOW"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_RUN_NOW_TT" Text="Run Auto Pilot immediately"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_CLOSE_TT" Text="Close"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_OPEN" Text="自动托管"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_OPEN_TT" Text="打开自动托管设置"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_LAUNCH" Text="自动"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_TITLE" Text="自动托管"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_SUBTITLE" Text="城市空闲时自动生产；未来科技/市政循环。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_TOGGLE_PRODUCTION" Text="自动城市生产（区域/建筑→奇观→建造者）"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_TOGGLE_FUTURE" Text="自动循环未来科技 / 未来市政"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_TOGGLE_PLACEMENT" Text="自动选择区域/奇观位置"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_TOGGLE_PLACEMENT_TT" Text="关闭时优先自动建造市场、银行等免选点建筑；没有免选点建筑、但有合法放置位置的区域/奇观（社区除外）时留给你选；两者都没有时才补建造者兜底；城市已有建造者时改跑学院研究补助金。社区永远排除，不受此开关影响。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_STATUS" Text="本次会话：生产 {1_count} 次，未来科技 {2_count} 次，未来市政 {3_count} 次，修复 {4_count} 次。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_RUN_NOW" Text="立即运行"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_RUN_NOW_TT" Text="立即执行一次自动托管"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_CLOSE_TT" Text="关闭"/>
+
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_OPEN" Text="自動託管"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_OPEN_TT" Text="打開自動託管設定"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_LAUNCH" Text="自動"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_TITLE" Text="自動託管"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_SUBTITLE" Text="城市空閒時自動生產；未來科技/市政循環。"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_TOGGLE_PRODUCTION" Text="自動城市生產（區域/建築→奇觀→建造者）"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_TOGGLE_FUTURE" Text="自動循環未來科技 / 未來市政"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_TOGGLE_PLACEMENT" Text="自動選擇區域/奇觀位置"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_TOGGLE_PLACEMENT_TT" Text="關閉時優先自動建造市場、銀行等免選點建築；沒有免選點建築、但有合法放置位置的區域/奇觀（社區除外）時留給你選；兩者都沒有時才補建造者兜底；城市已有建造者時改跑學院研究補助金。社區永遠排除，不受此開關影響。"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_STATUS" Text="本次工作階段：生產 {1_count} 次，未來科技 {2_count} 次，未來市政 {3_count} 次，修復 {4_count} 次。"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_RUN_NOW" Text="立即執行"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_RUN_NOW_TT" Text="立即執行一次自動託管"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_CLOSE_TT" Text="關閉"/>
+	</LocalizedText>
+</GameData>

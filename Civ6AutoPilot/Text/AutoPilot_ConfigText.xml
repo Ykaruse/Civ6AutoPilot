@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_MOD_NAME" Text="Civ 6 Auto Pilot"/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_MOD_TEASER" Text="Automatic city production and future tech/civic looping. Settlers are never auto-built."/>
+		<Row Language="en_US" Tag="LOC_AUTOPILOT_MOD_DESCRIPTION" Text="When a city is idle, it repairs pillaged districts/buildings first, then picks production in a fixed priority: districts/buildings, then wonders, then Builders only. Auto-placement of new districts/wonders is off by default; when off, no-placement buildings such as Markets are auto-built first. If none exists but a district/wonder with at least one legal placement plot (except Neighborhood) is available, the city waits for your choice. Only when neither a no-placement building nor a legally placeable district/wonder exists does it auto-build a Builder as the fallback. It never auto-builds Settlers or other units. The Neighborhood district is always excluded from every automation decision: never auto-built, auto-placed, or auto-repaired, regardless of the auto-placement switch. If the city already has a Builder, another Builder is not queued; the Campus Research Grants project is used instead when Builder would otherwise be the fallback. After every technology and civic is complete, Future Tech and Future Civic are selected automatically every time they finish, without the repeatable-completion popup."/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_MOD_NAME" Text="文明6 自动托管"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_MOD_TEASER" Text="自动城市生产、未来科技/市政循环；不会自动生产开拓者。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_AUTOPILOT_MOD_DESCRIPTION" Text="城市空闲时，优先修复被掠夺的区域与建筑，然后按固定优先级选择生产：区域/建筑 → 奇观 → 单位；单位阶段只生产建造者，不会生产开拓者或其他单位。“社区”区域永远排除在所有自动判断之外：无论自动选点开关开还是关，都不自动建造、不自动选点、不自动修复。城市中已有建造者时不会继续造建造者，轮到建造者兜底时改跑“学院研究补助金”项目。新区域/奇观的自动选点默认关闭；关闭时优先自动建造市场、银行等不需要选点的建筑；没有免选点建筑、但存在有合法放置位置的新区域/奇观（社区除外）时，不自动生产，留给你自己选位置；只有两者都没有时，才自动补一个建造者兜底。所有科技、市政完成后，每次完成都会自动继续选择“未来科技”和“未来市政”，并跳过重复科技/市政的完成弹窗。"/>
+
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_MOD_NAME" Text="文明6 自動託管"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_MOD_TEASER" Text="自動城市生產、未來科技/市政循環；不會自動生產開拓者。"/>
+		<Row Language="zh_Hant_HK" Tag="LOC_AUTOPILOT_MOD_DESCRIPTION" Text="城市空閒時，優先修復被掠奪的區域與建築，然後按固定優先級選擇生產：區域/建築 → 奇觀 → 單位；單位階段只生產建造者，不會生產開拓者或其他單位。「社區」區域永遠排除在所有自動判斷之外：無論自動選點開關開還是關，都不自動建造、不自動選點、不自動修復。城市中已有建造者時不會繼續造建造者，輪到建造者兜底時改跑「學院研究補助金」項目。新區域/奇觀的自動選點預設關閉；關閉時優先自動建造市場、銀行等不需要選點的建築；沒有免選點建築、但存在有合法放置位置的新區域/奇觀（社區除外）時，不自動生產，留給你自己選位置；只有兩者都沒有時，才自動補一個建造者兜底。所有科技、市政完成後，每次完成都會自動繼續選擇「未來科技」和「未來市政」，並跳過重複科技/市政的完成彈窗。"/>
+	</LocalizedText>
+</GameData>

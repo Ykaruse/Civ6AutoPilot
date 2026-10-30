@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="AutoPilot" Style="FontNormal16" FontStyle="Shadow">
+	<Container ID="Root" Anchor="C,C" Offset="0,0" Size="390,270" Hidden="1" ConsumeMouse="1">
+		<Grid Size="parent,parent" Style="WindowFrameHUD" Color="18,22,26,240">
+			<Label ID="TitleLabel" Anchor="C,T" Offset="0,18" Size="300,26" Align="C,C" String="LOC_AUTOPILOT_TITLE" Style="StrongSmall" Color="235,220,180,255"/>
+			<Label ID="SubtitleLabel" Anchor="C,T" Offset="0,46" Size="330,38" Align="C,C" WrapWidth="330" String="LOC_AUTOPILOT_SUBTITLE" Style="WhiteSemiBold14"/>
+
+			<CheckBox ID="ProductionCheck" Anchor="L,T" Offset="30,92" Size="330,24" Style="MainCheckBox" BoxOnLeft="1" TextOffset="-6,0" String="LOC_AUTOPILOT_TOGGLE_PRODUCTION" IsChecked="0"/>
+			<CheckBox ID="FutureCheck" Anchor="L,T" Offset="30,120" Size="330,24" Style="MainCheckBox" BoxOnLeft="1" TextOffset="-6,0" String="LOC_AUTOPILOT_TOGGLE_FUTURE" IsChecked="1"/>
+			<CheckBox ID="AutoPlaceCheck" Anchor="L,T" Offset="30,148" Size="330,24" Style="MainCheckBox" BoxOnLeft="1" TextOffset="-6,0" String="LOC_AUTOPILOT_TOGGLE_PLACEMENT" ToolTip="LOC_AUTOPILOT_TOGGLE_PLACEMENT_TT" IsChecked="0"/>
+
+			<Label ID="StatusLabel" Anchor="L,B" Offset="30,22" Size="220,52" WrapWidth="220" String="" Style="WhiteSemiBold14"/>
+			<GridButton ID="RunNowButton" Anchor="R,B" Offset="-24,26" Size="116,32" Style="MainButtonSmall" String="LOC_AUTOPILOT_RUN_NOW" ToolTip="LOC_AUTOPILOT_RUN_NOW_TT"/>
+
+			<GridButton ID="CloseButton" Anchor="R,T" Offset="-14,12" Size="30,30" Style="MainButtonSmall" String="X" ToolTip="LOC_AUTOPILOT_CLOSE_TT"/>
+		</Grid>
+	</Container>
+
+	<GridButton ID="OpenButton" Anchor="L,T" Offset="20,104" Size="126,38" Style="MainButton" String="LOC_AUTOPILOT_OPEN" ToolTip="LOC_AUTOPILOT_OPEN_TT"/>
+
+	<Instance Name="AutoPilotLaunchButton">
+		<Container ID="LaunchRoot" Size="49,49">
+			<Button ID="LaunchButton" Anchor="L,C" Offset="0,0" Size="49,49" Texture="LaunchBar_Hook_GovernmentButton" Style="ButtonNormalText" TextureOffset="0,2" StateOffsetIncrement="0,49" ToolTip="LOC_AUTOPILOT_OPEN_TT">
+				<Label ID="LaunchLabel" Anchor="C,C" Offset="0,0" String="LOC_AUTOPILOT_LAUNCH" Style="ButtonFont16" Color="240,218,168,255"/>
+			</Button>
+		</Container>
+	</Instance>
+</Context>
